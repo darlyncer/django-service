@@ -31,5 +31,5 @@ class Subscription(models.Model):
     plan = models.ForeignKey(Plan, related_name='subscriptions', on_delete=models.PROTECT)
 
     def __str__(self):
-        return f"{self.client} | {self.service} | {self.plan} "
+        return f"{self.client} | {self.service} | {self.plan}"
 
