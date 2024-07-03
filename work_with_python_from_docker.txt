@@ -1,1 +1,1 @@
-docker-compose run --rm web-app sh -c "python manage.py "
+ docker-compose run --rm web-app sh -c "python manage.py "
