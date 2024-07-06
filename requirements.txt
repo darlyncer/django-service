@@ -4,3 +4,4 @@ psycopg2==2.9.9
 celery[redis]==5.4.0
 importlib-metadata==8.0.0
 flower==2.0.1
+celery-singleton==0.3.1
